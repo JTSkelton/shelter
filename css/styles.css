@@ -12,7 +12,7 @@ h1{
   height: 300px;
   width: 300px;
   padding: 2px;
-  margin-bottom: 2px;
+  overflow: auto;
   background-color: rgb(48, 46, 46);
   color: red;
 }
@@ -21,6 +21,7 @@ h1{
   height: 300px;
   width: 300px;
   padding: 2px;
+  overflow: auto;
   background-color: rgb(48, 46, 46);
   color: red;
 }
@@ -39,6 +40,8 @@ img {
   height: 300px;
   width: 300px;
   padding: 2px;
+  position: relative;
+  overflow: auto;
 }
 
 .column { 
